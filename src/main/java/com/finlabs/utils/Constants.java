@@ -10,11 +10,13 @@ public class Constants {
 	public static final int TIMEOUT = 55000;
 	
 	public static final String saveStateURL = "http://localhost:8080/state/save.json";
+	public static final String getStateByStateNameURL = "http://localhost:8080/state/getByStateName?stateName=";
 	public static final String saveDistrictURL = "http://localhost:8080/district/save.json";
 	
 	public static final String stateMasterDataName = "stateMaster";
 	public static final String districtMasterDataName = "districtMaster";
 	
 	public static final String stateMasterDataFilePath = "src/main/resources/Indian-States-and-Districts-List.xlsx";
-
+	
+	
 }
